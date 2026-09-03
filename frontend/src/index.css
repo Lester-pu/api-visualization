@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Oswald:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap");
+
+:root {
+  color-scheme: dark;
+  --shell-inset-line: rgba(255, 255, 255, 0.04);
+  --industrial-chrome: rgba(255, 255, 255, 0.08);
+  --graph-stage-bg:
+    linear-gradient(180deg, rgba(10, 10, 10, 0.98), rgba(4, 4, 4, 0.985));
+  --graph-stage-border: rgba(243, 239, 231, 0.18);
+  --canvas-backdrop: rgba(255, 255, 255, 0.01);
+  --grid-line: rgba(243, 239, 231, 0.07);
+  --arrow-marker: rgba(243, 239, 231, 0.92);
+  --edge-base: rgba(122, 180, 255, 0.32);
+  --edge-active: rgba(210, 166, 109, 0.96);
+  --search-signal: rgba(122, 216, 208, 0.58);
+  --api-source-fill: rgba(28, 10, 10, 0.98);
+  --api-source-stroke: rgba(199, 132, 69, 0.44);
+  --api-bridge-fill: rgba(14, 14, 14, 0.98);
+  --api-bridge-stroke: rgba(210, 166, 109, 0.42);
+  --api-sink-fill: rgba(16, 16, 16, 0.98);
+  --api-sink-stroke: rgba(122, 216, 208, 0.44);
+  --api-isolated-fill: rgba(9, 9, 9, 0.98);
+  --api-isolated-stroke: rgba(160, 168, 181, 0.34);
+  --api-source-text: #ff836f;
+  --api-bridge-text: #f3efe7;
+  --api-sink-text: #e5dfd3;
+  --api-isolated-text: #c9c3b7;
+  --api-business-group-text: rgba(243, 239, 231, 0.72);
+  --endpoint-fill: rgba(6, 6, 6, 0.96);
+  --endpoint-stroke: rgba(46, 43, 38, 1);
+  --panel-metal-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0));
+  --glass-pill-highlight: inset 0 1px 0 rgba(255, 255, 255, 0.02);
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: "Manrope", "Segoe UI Variable Text", "Segoe UI", sans-serif;
+  background:
+    radial-gradient(circle at 50% 50%, rgba(255, 90, 61, 0.08), transparent 26%),
+    linear-gradient(180deg, #060606 0%, #030303 100%);
+  color: #f3efe7;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+}
